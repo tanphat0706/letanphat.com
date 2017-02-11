@@ -166,7 +166,10 @@
                 <div class="banner-right-info">
                     <h4><span>Something to say</span></h4>
                     <br>
-                    <p>Donec dolor felis, consectetur eget massa non, mattis euismod est. Nam augue neque, hendrerit nec scelerisque non, ultrices at ligula. Praesent posuere, turpis eget lobortis elementum, ex ante ultricies ligula, sit amet varius lacus dui in magna. Aliquam erat volutpat. Nulla condimentum, enim vitae congue ultrices, nibh erat efficitur sem, vel iaculis lectus eros in turpis. Aliquam venenatis cursus suscipit.</p>
+                    <p>Just call me <span style="font-weight: 700">Phat</span>.</p><br>
+                    <p>I'm web developer with <span style="font-weight: 700">3+ years</span> experience with <span style="font-weight: 700">Linux</span> base and <span style="font-weight: 700">Open Source</span> web technologies, such as Ubuntu, CentOS, Apache, PHP, MySQL, Postgresql, Laravel Framework, CodeIgniter with JQuery, Bootstrap, HTML 5 & CSS3 for <span style="font-weight: 700">cheap, fast, secure and profesional</span>.</p><br>
+                    <p>Let's <span style="font-weight: 700">start scrolling </span>and find out more <span style="font-weight: 700">about me :)</span>
+                    </p>
                     <div class="w3-button">
                         <div class="w3-button-info m_nav_item">
                             <a class="hvr-sweep-to-bottom scroll" href="#contact">Contact Me</a>
@@ -178,46 +181,44 @@
             <div class="col-md-4 w3ls-banner-left">
                 <div class="w3ls-banner-left-info">
                     <h4><span>Job Title</span></h4>
-                    <p>Web Designer and Developer</p>
+                    <p>Web Developer</p>
                 </div>
                 <div class="w3ls-banner-left-info">
                     <h4><span>Name</span></h4>
-                    <p>Steve Watson</p>
+                    <p>Le Tan Phat</p>
                 </div>
                 <div class="w3ls-banner-left-info">
-                    <h4><span>Sex</span></h4>
+                    <h4><span>Gender</span></h4>
                     <p>Male</p>
                 </div>
                 <div class="w3ls-banner-left-info">
-                    <h4><span>Address</span></h4>
-                    <p>Eiusmod Tempor inclore Place,Kingsport 56777.</p>
-                </div>
-                <div class="w3ls-banner-left-info">
-                    <h4><span>Email Address</span></h4>
-                    <p><a href="mailto:example@email.com">mail@example.com</a></p>
+                    <h4><span>D.O.B</span></h4>
+                    <p>June 7th, 1993</p>
                 </div>
             </div>
             <div class="col-md-4 w3ls-banner-left">
                 <div class="w3ls-banner-left-info">
-                    <h4><span>Job Title</span></h4>
-                    <p>Web Designer and Developer</p>
-                </div>
-                <div class="w3ls-banner-left-info">
-                    <h4><span>Name</span></h4>
-                    <p>Steve Watson</p>
-                </div>
-                <div class="w3ls-banner-left-info">
-                    <h4><span>Sex</span></h4>
-                    <p>Male</p>
-                </div>
-                <div class="w3ls-banner-left-info">
                     <h4><span>Address</span></h4>
-                    <p>Eiusmod Tempor inclore Place,Kingsport 56777.</p>
+                    <p>125 Binh Tien, Ward 7, District 6, HCMC, Vietnam.</p>
                 </div>
                 <div class="w3ls-banner-left-info">
                     <h4><span>Email Address</span></h4>
-                    <p><a href="mailto:example@email.com">mail@example.com</a></p>
+                    <p><a href="mailto:letanphat0706@gmail.com">letanphat0706@gmail.com</a></p>
                 </div>
+                <div class="w3ls-banner-left-info">
+                    <h4><span>Follow me</span></h4>
+                    <p>
+                        <a href="https://www.facebook.com/tanphat0706">
+                            <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                              Phat Le
+                        </a>
+                    </p>
+                </div>
+                <div class="w3ls-banner-left-info">
+                    <h4><span>Website</span></h4>
+                    <p><a href="{{url('/')}}">www.letanphat.com</a></p>
+                </div>
+
             </div>
             <div class="clearfix"> </div>
         </div>
