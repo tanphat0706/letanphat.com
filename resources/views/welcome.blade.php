@@ -47,16 +47,35 @@
 <!-- Header -->
 <div class="header" id="agilehome">
     <img  src="images/header.jpg" alt="Opulent">
+    <!-- Navigation SP -->
+    <section class="sp-mode cd-section">
+        <a class="cd-bouncy-nav-trigger" href="#0">MENU</a>
+    </section>
+    <div class="sp-mode cd-bouncy-nav-modal">
+        <nav>
+            <ul class="cd-bouncy-nav">
+                <li><a class="scroll" href="#agilehomewthree">HOME</a></li>
+                <li><a class="scroll" href="#agileaboutaitsabout">ABOUT</a></li>
+                <li><a class="scroll" href="#w3threespecialityw3ls">WORK</a></li>
+                <li><a class="scroll" href="#skills">SKILLS</a></li>
+                <li><a class="scroll" href="#portfolio">PORTFOLIO</a></li>
+                <li><a class="scroll" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <a href="#0" class="cd-close">Close modal</a>
+    </div>
+
+    <!-- //Navigation -->
     <h1 class="avt-sp sp-mode">
         <img src="{{asset('images/avt.jpg')}}" alt="" />
     </h1>
     <h1>
-        <div class="col-md-3 col-xs-12">
+        <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="banner-right-img pc-mode">
                 <img src="{{asset('images/avt.jpg')}}" alt="" />
             </div>
         </div>
-        <div class="col-md-9 col-xs-12">
+        <div class="col-md-9 col-sm-8 col-xs-12">
             hi !<br class="pc-mode">i'm <span style="font-weight: 300">le tan phat</span>
         </div>
 
@@ -73,7 +92,7 @@
                     <div class="ch-item ch-img-1">
                         <div class="ch-info-wrap">
                             <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-male" aria-hidden="true"></i></div>
+                                <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-male" aria-hidden="true"></i></div>
                                 <div class="ch-info-back">
                                     <h3><a class="scroll" href="#agileabout">ABOUT</a></h3>
                                 </div>
@@ -85,7 +104,7 @@
                     <div class="ch-item ch-img-2">
                         <div class="ch-info-wrap">
                             <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-bar-chart" aria-hidden="true"></i>
                                 </div>
                                 <div class="ch-info-back">
                                     <h3><a class="scroll" href="#wthreeskills">SKILLS</a></h3>
@@ -98,7 +117,7 @@
                     <div class="ch-item ch-img-3">
                         <div class="ch-info-wrap">
                             <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-file-text-o" aria-hidden="true"></i>
                                 </div>
                                 <div class="ch-info-back">
                                     <h3><a class="scroll" href="#aitsresumewthree">RESUME</a></h3>
@@ -111,7 +130,7 @@
                     <div class="ch-item ch-img-4">
                         <div class="ch-info-wrap">
                             <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-briefcase" aria-hidden="true"></i>
+                                <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-briefcase" aria-hidden="true"></i>
                                 </div>
                                 <div class="ch-info-back">
                                     <h3><a class="scroll" href="#portfolio">WORK</a></h3>
@@ -124,7 +143,7 @@
                     <div class="ch-item ch-img-5">
                         <div class="ch-info-wrap">
                             <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-users" aria-hidden="true"></i></div>
+                                <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-users" aria-hidden="true"></i></div>
                                 <div class="ch-info-back">
                                     <h3><a class="scroll" href="#agileinfosclients">CLIENTS</a></h3>
                                 </div>
@@ -136,7 +155,7 @@
                     <div class="ch-item ch-img-6">
                         <div class="ch-info-wrap">
                             <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-phone" aria-hidden="true"></i></div>
                                 <div class="ch-info-back">
                                     <h3><a class="scroll cont" href="#contact">CONTACT</a></h3>
                                 </div>
@@ -162,7 +181,7 @@
         <h2>ABOUT ME</h2>
 
         <div class="w3l-banner-grids">
-            <div class="col-md-4 w3ls-banner-left">
+            <div class="col-md-4 col-sm-12 w3ls-banner-left">
                 <div class="banner-right-info">
                     <h4><span>Something to say</span></h4>
                     <br>
@@ -178,28 +197,28 @@
                 </div>
                 <div class="clearfix"> </div>
             </div>
-            <div class="col-md-4 w3ls-banner-left">
+            <div class="col-md-4 col-sm-6 col-xs-12 w3ls-banner-left">
                 <div class="w3ls-banner-left-info">
                     <h4><span>Job Title</span></h4>
-                    <p>Web Developer</p>
+                    <p><a href="javascript:void(0)">Web Developer</a></p>
                 </div>
                 <div class="w3ls-banner-left-info">
                     <h4><span>Name</span></h4>
-                    <p>Le Tan Phat</p>
+                    <p><a href="javascript:void(0)"><a href="javascript:void(0)">Le Tan Phat</a></p>
                 </div>
                 <div class="w3ls-banner-left-info">
                     <h4><span>Gender</span></h4>
-                    <p>Male</p>
+                    <p><a href="javascript:void(0)">Male</a></p>
                 </div>
                 <div class="w3ls-banner-left-info">
                     <h4><span>D.O.B</span></h4>
-                    <p>June 7th, 1993</p>
+                    <p><a href="javascript:void(0)">June 7th, 1993</a></p>
                 </div>
             </div>
-            <div class="col-md-4 w3ls-banner-left">
+            <div class="col-md-4 col-sm-6 col-xs-12 w3ls-banner-left">
                 <div class="w3ls-banner-left-info">
                     <h4><span>Address</span></h4>
-                    <p>125 Binh Tien, Ward 7, District 6, HCMC, Vietnam.</p>
+                    <p><a href="javascript:void(0)">125 Binh Tien, Ward 7, District 6, HCMC, Vietnam.</a></p>
                 </div>
                 <div class="w3ls-banner-left-info">
                     <h4><span>Email Address</span></h4>
@@ -800,6 +819,8 @@
 <!-- //Smooth-Scrolling-JavaScript -->
 
 <!-- //Custom-JavaScript-File-Links -->
-
+<!-- Navigation-JavaScript -->
+<script src="{{asset('js/nav.js')}}"></script>
+<!-- //Navigation-JavaScript -->
 </body>
 </html>
