@@ -3,18 +3,22 @@ jQuery(document).ready(function ($) {
     //open bouncy navigation
     $('.cd-bouncy-nav-trigger').on('click', function () {
         triggerBouncyNav(true);
-        $('section.cd-section').css({"z-index": "0"});
+        $('section.cd-section').css({"z-index": "1"});
     });
     //close bouncy navigation
     $('.cd-bouncy-nav-modal .cd-close').on('click', function () {
         triggerBouncyNav(false);
-        $('section.cd-section').css({"z-index": "9999"});
+        $('section.cd-section').css({"z-index": "99999"});
     });
     $('.cd-bouncy-nav-modal').on('click', function (event) {
         if ($(event.target).is('.cd-bouncy-nav-modal')) {
             triggerBouncyNav(false);
-            $('section.cd-section').css({"z-index": "9999"});
+            $('section.cd-section').css({"z-index": "99999"});
         }
+    });
+
+    $('ul.cd-bouncy-nav li').click(function () {
+        triggerBouncyNav(false);
     });
 
     function triggerBouncyNav($bool) {

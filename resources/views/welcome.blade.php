@@ -54,18 +54,17 @@
     <div class="sp-mode cd-bouncy-nav-modal">
         <nav>
             <ul class="cd-bouncy-nav">
-                <li><a class="scroll" href="#agilehomewthree">HOME</a></li>
-                <li><a class="scroll" href="#agileaboutaitsabout">ABOUT</a></li>
-                <li><a class="scroll" href="#w3threespecialityw3ls">WORK</a></li>
-                <li><a class="scroll" href="#skills">SKILLS</a></li>
-                <li><a class="scroll" href="#portfolio">PORTFOLIO</a></li>
+                <li><a class="scroll" href="#agileabout">ABOUT</a></li>
+                <li><a class="scroll" href="#wthreeskills">STATISTICS</a></li>
+                <li><a class="scroll" href="#aitsresumewthree">RESUME</a></li>
+                <li><a class="scroll" href="#portfolio">WORK</a></li>
+                <li><a class="scroll" href="#agileinfosclients">SKILLS</a></li>
                 <li><a class="scroll" href="#contact">CONTACT</a></li>
             </ul>
         </nav>
         <a href="#0" class="cd-close">Close modal</a>
     </div>
-
-    <!-- //Navigation -->
+    <!-- Navigation SP -->
     <h1 class="avt-sp sp-mode">
         <img src="{{asset('images/avt.jpg')}}" alt="" />
     </h1>
@@ -78,12 +77,8 @@
         <div class="col-md-9 col-sm-8 col-xs-12">
             hi !<br class="pc-mode">i'm <span style="font-weight: 300">le tan phat</span>
         </div>
-
-
     </h1>
-
     <h2> - <span>WEB DEVELOPER</span> - </h2>
-
     <!-- Navigation PC -->
     <div class="navigation pc-mode">
         <div class="nav-grids">
@@ -107,7 +102,7 @@
                                 <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-bar-chart" aria-hidden="true"></i>
                                 </div>
                                 <div class="ch-info-back">
-                                    <h3><a class="scroll" href="#wthreeskills">SKILLS</a></h3>
+                                    <h3><a class="scroll" href="#wthreeskills">STATISTICS</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -145,7 +140,7 @@
                             <div class="ch-info">
                                 <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-users" aria-hidden="true"></i></div>
                                 <div class="ch-info-back">
-                                    <h3><a class="scroll" href="#agileinfosclients">CLIENTS</a></h3>
+                                    <h3><a class="scroll" href="#agileinfosclients">SKILLS</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -169,11 +164,8 @@
 
     </div>
     <!-- //Navigation -->
-
 </div>
 <!-- //Header -->
-
-
 <!-- About -->
 <div class="agileabout" id="agileabout">
     <div class="container-fluid">
@@ -245,12 +237,10 @@
     </div>
 </div>
 <!-- //About -->
-
-
-<!-- Skills -->
+<!-- Statistics -->
 <div class="wthreeskills" id="wthreeskills">
     <div class="container-fluid">
-        <h3>MY SKILLS</h3>
+        <h3>MY STATISTICS</h3>
 
         <div class="wthreeskills-grids">
 
@@ -378,9 +368,7 @@
 
     </div>
 </div>
-<!-- //Skills -->
-
-
+<!-- //Statistics -->
 <!-- Resume -->
 <div class="aitsresumewthree" id="aitsresumewthree">
     <div class="container">
@@ -488,8 +476,6 @@
     </div>
 </div>
 <!-- //Resume -->
-
-
 <!-- Portfolio -->
 <div class="portfolio w3layouts agileits" id="portfolio">
     <div class="container">
@@ -609,13 +595,11 @@
     </div>
 </div>
 <!-- //Portfolio -->
-
-
-<!-- Clients -->
+<!-- Skills -->
 <div class="agileinfosclients" id="agileinfosclients">
     <div class="container">
 
-        <h3>MY CLIENTS</h3>
+        <h3>MY SKILLS</h3>
 
         <!-- Screen-Gallery-Carousel -->
         <div id="owl-demo" class="owl-carousel text-center slideanim">
@@ -655,8 +639,6 @@
     </div>
 </div>
 <!-- Skills -->
-
-
 <!-- Contact -->
 <div class="contact" id="contact">
     <div class="container">
@@ -685,8 +667,6 @@
     </div>
 </div>
 <!-- //Contact -->
-
-
 <!-- Footer -->
 <div class="footer">
     <div class="container">
