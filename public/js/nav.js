@@ -12,8 +12,7 @@ jQuery(document).ready(function ($) {
     });
     $('.cd-bouncy-nav-modal').on('click', function (event) {
         if ($(event.target).is('.cd-bouncy-nav-modal')) {
-            // triggerBouncyNav(false);
-            $('.cd-bouncy-nav-modal').removeClass('fade-in');
+            triggerBouncyNav(false);
             $('section.cd-section').css({"z-index": "99999"});
         }
     });
