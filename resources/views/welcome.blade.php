@@ -54,12 +54,54 @@
     <div class="sp-mode cd-bouncy-nav-modal">
         <nav>
             <ul class="cd-bouncy-nav">
-                <li><a class="scroll" href="#agileabout">ABOUT</a></li>
-                <li><a class="scroll" href="#wthreeskills">STATISTICS</a></li>
-                <li><a class="scroll" href="#aitsresumewthree">RESUME</a></li>
-                <li><a class="scroll" href="#portfolio">WORK</a></li>
-                <li><a class="scroll" href="#agileinfosclients">SKILLS</a></li>
-                <li><a class="scroll" href="#contact">CONTACT</a></li>
+                <li>
+                    <a class="scroll" href="#agileabout">
+                        <div class="ch-info-front ch-img-1">
+                            <i class="fa fa-male" aria-hidden="true"></i>
+                        </div>
+                        <p>ABOUT</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="scroll" href="#wthreeskills">
+                        <div class="ch-info-front ch-img-1">
+                            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                        </div>
+                        <p>STATISTICS</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="scroll" href="#aitsresumewthree">
+                        <div class="ch-info-front ch-img-1">
+                            <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                        </div>
+                        <p>RESUME</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="scroll" href="#portfolio">
+                        <div class="ch-info-front ch-img-1">
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        </div>
+                        <p>WORK</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="scroll" href="#agileinfosclients">
+                        <div class="ch-info-front ch-img-1">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                        </div>
+                        <p>SKILLS</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="scroll" href="#contact">
+                        <div class="ch-info-front ch-img-1">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <p>CONTACT</p>
+                    </a>
+                </li>
             </ul>
         </nav>
         <a href="#0" class="cd-close">Close modal</a>
@@ -138,7 +180,7 @@
                     <div class="ch-item ch-img-5">
                         <div class="ch-info-wrap">
                             <div class="ch-info">
-                                <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-users" aria-hidden="true"></i></div>
+                                <div class="visible-md visible-lg ch-info-front ch-img-1"><i class="fa fa-cogs" aria-hidden="true"></i></div>
                                 <div class="ch-info-back">
                                     <h3><a class="scroll" href="#agileinfosclients">SKILLS</a></h3>
                                 </div>
