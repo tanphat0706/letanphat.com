@@ -1478,8 +1478,18 @@ body.is-loading #header .content .inner {
     #header .content p br {
         display: none;
     }
+    #main article div.content {
+        max-height: 100%;
+    }
+    .mCustomScrollbar {
+        touch-action: inherit !important;
+    }
 }
-
+@media (min-width: 737px) {
+    .w3ls-banner-left {
+        width: 50%;
+    }
+}
 @media screen and (max-width: 736px) {
     #header>* {
         margin-top: 2rem;
@@ -1508,8 +1518,25 @@ body.is-loading #header .content .inner {
     #header {
         padding: 1.5rem 0;
     }
+    #header h1 {
+        font-size: 1.5rem;
+    }
+    input[type="submit"], input[type="reset"], input[type="button"], button, .button{
+        padding: 0;
+        letter-spacing: 0.01rem;
+    }
+    .w3ls-banner-left{
+        width: 100%;
+    }
     #header .content .inner {
-        padding: 2.5rem 0;
+        padding: 2rem 0;
+    }
+    #header .content p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    #header h1 span{
+        font-size: 1.7rem;
     }
     #header nav ul {
         -moz-flex-direction: column;
@@ -1701,14 +1728,16 @@ body.is-loading #footer {
 
 #header h1 span {
     /*font-size: 40px;*/
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 300;
+    /*font-size: 2.7rem;*/
+    text-transform: lowercase
 }
 
 .w3ls-banner-left {
     float: left;
     padding: 0 15px;
-    width: 50%;
+    /*width: 50%;*/
     margin-bottom: 30px;
 }
 
