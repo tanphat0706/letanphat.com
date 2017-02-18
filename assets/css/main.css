@@ -1735,7 +1735,7 @@ body.is-loading #footer {
     letter-spacing: 2px;
 }
 
-.w3ls-banner-left a:hover {
+.w3ls-banner-left a:hover, #contact a:hover{
     color: #FF9800;
 }
 
