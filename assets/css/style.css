@@ -319,7 +319,7 @@ ul.list-check li::before {
 /* === HOME === */
 @media (max-width : 640px) {
     .tt-fullHeight{
-        height: 560px !important;
+        height: 100vh !important;
     }
 }
 

@@ -139,11 +139,10 @@
           </div>
         </div><!-- /.row -->
       </div><!-- /.container -->
+        <div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
     </section><!-- End Contact Section -->
-
-
-
-
 
 	<!-- Javascript files -->
 	<script src="assets/js/jquery.js"></script>
