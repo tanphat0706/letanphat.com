@@ -268,9 +268,9 @@ ul, ol {
 }
 
 
-ul.list-check {
+/* ul.list-check {
     
-}
+} */
 
 ul.list-check li{
     position: relative;
@@ -1301,9 +1301,9 @@ Resume Timeline
 }
 
 /* === Blog Section === */
-.latest-blog-section {
+/* .latest-blog-section {
   
-}
+} */
 .blog-post-wrapper {
     padding: 4px;
     border: 1px solid #eee;
@@ -1361,9 +1361,9 @@ Resume Timeline
 .entry-header {
     padding: 0 12px;
 }
-.post-meta {
+/* .post-meta {
 
-}
+} */
 .the-category a {
     font-size: 12px;
     line-height: 28px;
@@ -1463,9 +1463,9 @@ Icon for all respective meta
 
 
 /* === Contact Section === */
-.contact-section  {
+/* .contact-section  {
   
-}
+} */
 
 .contact-section strong {
     display: block;
