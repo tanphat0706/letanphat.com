@@ -130,8 +130,8 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="location-map">
-                <div id="mapCanvas" class="map-canvas"></div>
-                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.8953673032365!2d106.64100531540514!3d10.74254699234452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e648fee17e9%3A0x610a111b0e8bfcb2!2zMTI1IELDrG5oIFRpw6puLCBwaMaw4budbmcgNywgUXXhuq1uIDYsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1513916781109" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+                <!-- <div id="mapCanvas" class="map-canvas"></div> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.8953673032365!2d106.64100531540514!3d10.74254699234452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e648fee17e9%3A0x610a111b0e8bfcb2!2zMTI1IELDrG5oIFRpw6puLCBwaMaw4budbmcgNywgUXXhuq1uIDYsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1513916781109" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@
   <script src="assets/js/jquery.magnific-popup.min.js"></script>
   <!-- <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script> -->
   <script src="assets/js/jquery.fitvids.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> -->
   <script src="assets/js/scripts.js"></script>
 </body>
 </html>
